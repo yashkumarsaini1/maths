@@ -1,0 +1,179 @@
+
+body {
+    font-family: normal;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #000000;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px solid #20bcd5;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+#header {
+    background-size: cover;
+    padding: 30px;
+    background-color: SkyBlue;
+}
+#header p {
+    font-size: 30pt;
+    color: #000000;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 16pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+   
+}
+form {
+    text-align: center;
+    margin-top: 0;
+    border-radius: 10px;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: solid;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #000000;
+    border-radius: 30px;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 16pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #000000;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 35px;
+    width: 70%;
+    outline: none;
+}
+.copyright {
+    font-size: 14pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: black;
+}
+    
+.loginBox{
+    width:100%;
+    height:350px;
+    box-sizing:border-box;
+    border-radius: 500px;
+    background:white;
+    
+}
+
+.loginBox p{
+    margin:0;
+    padding:10px;
+    font-weight:bold;
+    color:#000000;
+    font-size: 30px;
+    outline-color: #000;
+
+}
+
+.loginBox input{
+    width:50%;
+    margin-bottom:10px;
+    text-align: center;
+    background-color: #000;
+    border: 4px solid #20bcd5;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+    border:solid #000;
+    border-bottom:1px solid #000000;
+    background:#efefef;
+    outline:none;
+    height:20px;
+    color:#000;
+    font-size:25px;
+}
+
+
+::placeholder{
+    color: gray;
+    
+}
+
+.loginBox input[type="submit"]{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#000000;
+    font-size:20px;
+    background:SkyBlue;
+    cursor:pointer;
+    border-radius:20px;
+}
+
+
+.loginBox input[type="submit"]:hover{
+    background:Red;
+    color:#000000;
+}
+
+
