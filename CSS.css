@@ -96,17 +96,17 @@ textarea {
 }
 input, textarea {
     margin-bottom: 10px;
-    font-size: 16pt;
+    font-size: 12pt;
     padding: 15px 10px 10px;
     border: 1px solid #000000;
     background-color: #efefef;
-    color: #787575;
+    color: #000;
     border-radius: 35px;
     width: 70%;
     outline: none;
 }
 .copyright {
-    font-size: 14pt;
+    font-size: 8pt;
     text-align: right;
     padding-bottom: 10px;
     color: black;
@@ -176,4 +176,32 @@ input, textarea {
     color:#000000;
 }
 
+table {
+	width: 100%;
+	font-size: 16pt;
+	background-color: SkyBlue ;
+}
+table, th, td{
+	border:2px solid #efefef;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+	border-radius: 40px;
+}
 
+h2{
+    font-size: 20pt;
+    color: #000000;
+    text-align: center;
+}
+h3{
+    font-size: 15pt;
+    color: red;
+    text-align: center;
+}
+a:hover {
+	color:red;
+}
+a:link{
+	text-decoration: none;
+}
